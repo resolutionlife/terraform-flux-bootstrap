@@ -6,7 +6,8 @@ Terraform module to bootstrap Flux with GitHub.
 
 ```hcl
 module "flux" {
-  source = "github.com/resolutionlife/terraform-flux-bootstrap"
+  source = "resolutionlife/bootstrap/flux"
+  version = "~> 0.1.0
 
   cluster_name     = "my-cluster"
   github_owner     = "my-org"
